@@ -1,5 +1,5 @@
 import { useSearchParams } from "react-router-dom";
-import { TodoData, useTodoContext } from "../store/todoContext"
+import {  useTodoContext } from "../store/todoContext"
 
 const TodoList = () => {
     const{data,toggleTodoAsCompleted,handleDeleteTask} = useTodoContext();
